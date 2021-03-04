@@ -9,7 +9,6 @@ import useTree from './hooks/useTree';
 
 import {DATA_LIST} from './response'
 
-import './App.css';
 
 function App() {
   const {data, setData} = useTree(DATA_LIST)
